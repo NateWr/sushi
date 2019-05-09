@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.sushi.name">SUSHI-Lite</message>
+	<message key="plugins.generic.sushi.description">Provide journal usage statistics through a REST API that implements the SUSHI-Lite protocol. Journal statistics follow the COUNTER guidelines.</message>
+	<message key="plugins.generic.sushi.api.invalidCustomerId">You must supply a valid customer_id to access this report.</message>
+	<message key="plugins.generic.sushi.api.invalidDates">You must supply a valid begin_date and end_date to access this report.</message>
+	<message key="plugins.generic.sushi.api.invalidCount">You can only request a count between 1 and 100.</message>
+	<message key="plugins.generic.sushi.api.invalidPositionToken">You must supply a position_token that is 0 or greater.</message>
+</locale>
